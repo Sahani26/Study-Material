@@ -693,7 +693,9 @@ h3.projects__row-content-title {
         visibility: visible !important;
         left: 5px !important;
     }
-
+    #top-btn::after{
+        background-size: 7px;
+    }
     .projects__row{
         margin-bottom: 0rem;
     }
