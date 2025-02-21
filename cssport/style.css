@@ -48,7 +48,7 @@ a{
 }
 
 .sec-pad {
-    padding: 120px 0;
+    padding: 50px 0;
 }
 
 
@@ -194,9 +194,8 @@ a{
     color: #fff;
     background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url('../image/common-bg.svg');
     background-position: center;
-    height: 100vh;
-    min-height: 60rem;
-    max-height: 120rem;
+    height: 40vh;
+
     position: relative
 }
 
@@ -206,7 +205,8 @@ a{
     transform: translateY(-50%);
     background: #fff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: .5rem
+    padding: .5rem;
+    margin-top: 40px;
 }
 
 .home-hero__mouse-scroll-cont {
@@ -244,7 +244,8 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90rem;
-    width: 92%
+    width: 92%;
+    padding-top: 65px;
 }
 .heading-primary {
     font-size:56px;
@@ -256,7 +257,7 @@ a{
 }
 
 .home-hero__info {
-    margin: 3rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     max-width: 80rem
 }
 .home-hero__info .text-primary {
@@ -269,7 +270,7 @@ a{
 }
 
 .home-hero__cta {
-    margin-top: 5rem;
+    margin-top: 1rem;
     text-align: center
 }
 .home-hero__cta .btn,.about__content-main .btn ,.projects__row-content .btn,.contact__form .btn{
@@ -299,7 +300,7 @@ a{
     max-width:1200px;
 }
 .heading-sec__mb-med {
-    margin-bottom: 9rem;
+    margin-bottom: 2rem;
 }
 .heading-sec__main {
     display: block;
@@ -370,9 +371,7 @@ a{
 
 
 /* project  */
-.heading-sec__mb-bg {
-    margin-bottom: 80px;
-}
+
 .projects__row {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -456,7 +455,7 @@ a{
     margin: 5rem auto 0 auto;
 }
 .contact__form-field {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 .contact__form-label {
     color: var(--text-color);
@@ -606,7 +605,7 @@ a{
     .home-hero{
         height: unset;
         min-height: unset;
-    }  
+    }
     .home-hero__content {
         padding: 8rem 0 5rem 0;
         margin: auto;
@@ -615,7 +614,7 @@ a{
     }
     .sec-pad{
         padding: 50px 10px;
-    } 
+    }
     .heading-sec__sub,.about__content-details-para{
         font-size: 15px;
         line-height: normal;
