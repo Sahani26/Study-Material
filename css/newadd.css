@@ -18,3 +18,12 @@
     font-size: 14px !important;
 
 }
+.card p.card-text {
+    min-height: 40px;
+}
+.card .bg-image.hover-overlay {
+    height: 230px;
+}
+.card img.img-fluid {
+    height: 100%;
+}
