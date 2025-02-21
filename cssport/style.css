@@ -674,6 +674,26 @@ h3.projects__row-content-title {
     .home-hero__socials{
         display: none;
     }
+    #top-btn, #top-btn-w {
+        display: inline-block;
+        background-color: var(--hover-color);
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 25px;
+        right: 5px;
+        transition: background-color .3s, opacity .5s, visibility .5s;
+        opacity: 1;
+        visibility: hidden;
+        z-index: 1000;
+    }
+    #top-btn-w{
+        visibility: visible !important;
+        left: 5px !important;
+    }
+
     .projects__row{
         margin-bottom: 0rem;
     }
