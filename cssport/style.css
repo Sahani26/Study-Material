@@ -632,7 +632,7 @@ h3.projects__row-content-title {
         min-height: unset;
     }
     .home-hero__content {
-        padding: 8rem 0 5rem 0;
+        padding: 5rem 0 0rem 0;
         margin: auto;
         position: static;
         transform: translate(0, 0);
