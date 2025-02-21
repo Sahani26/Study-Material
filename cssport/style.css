@@ -447,6 +447,7 @@ h3.projects__row-content-title {
 }
 
 /* contact us  */
+
 .contact {
     background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url('../image/common-bg.svg');
     background-size: cover;
@@ -458,10 +459,10 @@ h3.projects__row-content-title {
     padding: 4rem;
     margin-top: 6rem;
     max-width: 80rem;
-    text-align: right;
+    text-align: left;
     width: 95%;
     border-radius: 5px;
-    margin: 5rem auto 0 auto;
+    margin: 0rem auto 0 auto;
 }
 .contact__form-field {
     margin-bottom: 2rem;
@@ -542,7 +543,7 @@ h3.projects__row-content-title {
 }
 
 /* back to top  */
-#top-btn {
+#top-btn,#top-btn-w {
   display: inline-block;
   background-color: var(--hover-color);
   width: 50px;
@@ -553,9 +554,14 @@ h3.projects__row-content-title {
   bottom: 30px;
   right: 30px;
   transition: background-color .3s,  opacity .5s, visibility .5s;
-  opacity: 0;
+  opacity: 1;
   visibility: hidden;
   z-index: 1000;
+}
+#top-btn-w{
+    left: 20px !important;
+    visibility: visible;
+    background-color: transparent;
 }
 
 #top-btn::after{
@@ -568,12 +574,22 @@ h3.projects__row-content-title {
     height: 100%;
     transform: rotate(-90deg);
 }
+#top-btn-w::after {
+    background: url(../image/whatsapp.png) no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    content: '';
+    right: 0px;
+    width: 100%;
+    height: 100%;
 
-#top-btn:hover {
+}
+
+#top-btn:hover,#top-btn-w:hover {
   cursor: pointer;
   background-color: var(--second-color);
 }
-#top-btn.show {
+#top-btn.show,#top-btn-w.show {
   opacity: 1;
   visibility: visible;
 }
