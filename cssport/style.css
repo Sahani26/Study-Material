@@ -265,7 +265,7 @@ a{
     font-size: 20px;
     text-align: center;
     width: 100%;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     line-height: 1.6;
 }
 
@@ -628,11 +628,11 @@ h3.projects__row-content-title {
         display: block;
     }
     .home-hero{
-        height: unset;
+        height: auto;
         min-height: unset;
     }
     .home-hero__content {
-        padding: 5rem 0 0rem 0;
+        padding: 6rem 0 0rem 0;
         margin: auto;
         position: static;
         transform: translate(0, 0);
@@ -727,6 +727,22 @@ h3.projects__row-content-title {
     }
     .main-footer__social-cont{
         margin-top: 10px;
+    }
+    .home-hero__cta .btn, .about__content-main .btn, .projects__row-content .btn, .contact__form .btn,.view-more-project a{
+        background: var(--hover-color);
+        color: var(--white-color);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: inline-block;
+        font-weight: 500;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+        transition: transform .3s;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .home-hero__cta{
+        padding-bottom: 20px;
     }
 }
 
