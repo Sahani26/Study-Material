@@ -1,0 +1,20 @@
+.container-fluid a.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.home-hero__info .text-primary {
+    color: #333 !important;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+    line-height: 1.6;
+    font-size: 14px !important;
+
+}
